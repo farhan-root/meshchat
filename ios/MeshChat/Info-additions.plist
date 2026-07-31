@@ -1,0 +1,24 @@
+<!--
+  Xcode's default SwiftUI App template manages Info.plist automatically via
+  build settings (Info.plist File = auto-generated). To add the required keys:
+
+  In Xcode: select your target -> Info tab -> add these rows (or, if you use
+  a physical Info.plist file, merge these keys into it directly).
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>MeshChat uses Bluetooth to send and relay messages directly between nearby phones, with no internet or cell network required.</string>
+
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>MeshChat uses Bluetooth to send and relay messages directly between nearby phones, with no internet or cell network required.</string>
+
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>bluetooth-central</string>
+        <string>bluetooth-peripheral</string>
+    </array>
+</dict>
+</plist>
